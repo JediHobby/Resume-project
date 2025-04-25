@@ -1,0 +1,309 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+
+p{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+
+}
+
+h4{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+
+}
+
+li{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.work-experience .subtitle{
+    color: rgba(251, 109, 58, 1)
+}
+
+.work-experience .subtitle01{
+    color: rgba(251, 109, 58, 1)
+}
+
+.work-experience .subtitle02{
+    color: rgba(251, 109, 58, 1)
+}
+
+.Education .subtitleed{
+    color: rgba(251, 109, 58, 1)
+}
+
+.sidebar {
+    width: 370px;
+    background: #1E2939;
+    color: #FFF;
+    padding-top: 40px;
+}
+
+.sidebar > .content {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+
+.contacts h3{
+    margin: 0px;
+}
+
+.contacts a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts .phonenum {
+    text-decoration: none;
+   
+}
+
+.sidebar > .techskills {
+    margin: 47px 0px 0px 0px;
+}
+
+.techskills li{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.techskills ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.techskills ul li::before {
+    content: "\2022";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+
+}
+
+.sidebar > .softskills {
+    margin: 44px 0px 0px 0px;
+}
+
+.softskills li{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.softskills ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.softskills ul li::before {
+    content: "\2022";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+
+}
+/* main content styles */
+.main-content{
+    width: calc(100% - 370px);
+    padding: 102px 217px 107px 88px;
+}
+
+.summary {
+    margin-bottom: 40px;
+}
+
+.summary > h4 {
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.summary > h2 {
+    margin: 19px 0px 24px 0px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.summary > p {
+    margin: 0px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.project > h3 {
+    margin: 0px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.project > ol {
+    margin: 8 0 1.5em 0;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol > li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol > li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 13px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+    content: counter(item) ".";
+}
+
+.project  a {
+    margin-top: 8px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;  
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.project > ol span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.work-experience {
+    padding: 51px 0px 0px 0px;
+}
+
+.work-experience > h3 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 12px 0;
+}
+
+.work-experience > .experience {
+    margin-top: 12px 0px;
+}
+
+.work-experience > .experience > h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 12px 0px 12px 0px;
+}
+
+.work-experience > .experience > p {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0
+}
+
+.work-experience > .experience >  ul{
+    list-style: none;
+    padding-left: 10px;
+    margin: 8px 0px 0px 10px;
+    
+}
+
+.work-experience > .experience >   li{
+    color: #595959;  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;   
+}
+
+.dot {
+    float:left;
+    margin-top: 20px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+   
+.Education > h3 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 43px;
+}
+
+.Education > h4 {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.Education > h5 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.Education > p {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 12px;
+}
